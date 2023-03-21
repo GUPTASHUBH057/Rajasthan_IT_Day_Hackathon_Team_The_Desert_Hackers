@@ -10,7 +10,7 @@ The second module is a PHP based web application. It is a web app where the auth
 
 How to use this system:
 
-1. The telegram bot has a Python file named as "bot_mysql.py". It need a unique bot token, any developer who wants to modify it needs to have his own bot token, which can be generated using Telegram app. 
+1. The telegram bot has a Python file named as "bot_mysql.py" which is located here in "bot_code" folder. It need a unique bot token, any developer who wants to modify it needs to have his own bot token, which can be generated using Telegram app. 
 Also there are some other APIs used, corresponding API Keys need to be generated as well, before the file is run.
 To run the bot all the Python modules which are required also need to be imported and then the bot can be started.
 
