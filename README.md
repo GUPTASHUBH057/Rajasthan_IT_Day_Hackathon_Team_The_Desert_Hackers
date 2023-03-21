@@ -1,8 +1,10 @@
 # Rajasthan_IT_Day_Hackathon_Team_The_Desert_Hackers
 A system for mitigating road safety issues. 
 
-# The presentation for this system can be found on this link :
+### The presentation for this system can be found on this link :
 https://docs.google.com/presentation/d/1Ik0fW6qT8G9LD3ZSP9VN53f50McdtyOgFIa2jf1FQrU/edit?usp=sharing
+
+### The Telegram bot can be found from the username, which is @Raj_IT_Hackathon_bot 
 
 This system consists of 2 modules.
 
