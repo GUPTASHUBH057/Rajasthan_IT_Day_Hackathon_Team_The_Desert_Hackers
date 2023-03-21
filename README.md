@@ -1,6 +1,9 @@
 # Rajasthan_IT_Day_Hackathon_Team_The_Desert_Hackers
 A system for mitigating road safety issues. 
 
+# The presentation for this system can be found on this link :
+https://docs.google.com/presentation/d/1Ik0fW6qT8G9LD3ZSP9VN53f50McdtyOgFIa2jf1FQrU/edit?usp=sharing
+
 This system consists of 2 modules.
 
 The first one is a telegram bot. This bot is a means for the citizen to register about different road safety related incidents. It takes the location, description of the scenario, exact location and other inputs and stores the data in a MySQL database. Also it asks if the citizen wants to immediately inform the police and ambulance.
@@ -17,5 +20,7 @@ To run the bot all the Python modules which are required also need to be importe
 This bot will collect the data and store it in the Database as discussed before.
 
 2. Now the Web App part, it is PHP based web app, which the authorities can use to manage and take appropriate steps. It is a standard PHP web app which uses the same database which was used by the bot to store the data.
+
+
 
 
