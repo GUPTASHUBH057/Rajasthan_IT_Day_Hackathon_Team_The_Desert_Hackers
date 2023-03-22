@@ -4,7 +4,7 @@ import mysql.connector
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CallbackQueryHandler, CommandHandler, MessageHandler, Filters
 
-BOT_TOKEN = "6118949659:AAF9c-hY-r0U02MsvZJnFBU76oRABkJx9FQ"
+BOT_TOKEN = "put the bot token here"
 
 ################################################################
 ## image hosting
@@ -14,9 +14,9 @@ from cloudinary.utils import cloudinary_url
 import cloudinary
 
 cloudinary.config(
-  cloud_name = "dxqvzaybm",
-  api_key = "285116949393298",
-  api_secret = "-vwCj6a3h3rH9Ok5rSBdsEX872o",
+  cloud_name = "Cloud_name_here",
+  api_key = "api_key_here",
+  api_secret = "api_secret_here",
   secure = True
 )
 
@@ -26,10 +26,10 @@ cloudinary.config(
 ################### mysql
 
 mydb = mysql.connector.connect(
-  host="sql12.freemysqlhosting.net",
-  user="sql12607319",
-  password="9j5hpZPFEi",
-  database="sql12607319"
+  host="your_host_here",
+  user="user_name_here",
+  password="password_here",
+  database="database_name_here"
 )
 
 mycursor = mydb.cursor()
@@ -307,7 +307,7 @@ def handle_location(update, context):
     s6 = longitude
     
     
-    rev_geocode_api_key = "6054cc029ddf43b4a341c9809227e74d"
+    rev_geocode_api_key = "rev_geocode_api_here"
     
     geocode_url = f"https://api.opencagedata.com/geocode/v1/json?q={latitude}+{longitude}&key={rev_geocode_api_key}"
 
